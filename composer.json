@@ -2,6 +2,9 @@
 	"require": {
 		"gskema/prestashop-installer": "~2.0"
 	},
+	"require-dev": {
+		"heroku/heroku-buildpack-php": "*"
+	},
 	"scripts": {
 		"prestashop-setup-core": "prestashop new store --release=1.7.1.0 --fixture=starwars",
 		"prestashop-db-core": "php store/install/install_cli.php",
